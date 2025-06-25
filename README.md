@@ -190,7 +190,7 @@ function App() {
 export default App;
 ```
 
----
+
 
 ## ✅ 4. Run Both Servers
 
@@ -210,8 +210,7 @@ npm start
 
 ---
 
-  Great! You've written a simple **React component** that fetches data from your Express server and displays it. Let me explain your code line by line
-
+ 
 
 
 ### ✅ ** 1. Import Required Modules **
