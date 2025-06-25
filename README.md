@@ -5,8 +5,8 @@
 
 ```bash
 my-fullstack-app/
-├── server/       # Express backend
-└── client/       # React frontend
+├── frontend/       # Express backend
+└── backend/       # React frontend
 ```
 
 
@@ -15,7 +15,7 @@ my-fullstack-app/
 ### **Step 1: Create Backend**
 
 ```bash
-mkdir server && cd server
+mkdir backend && cd backend
 npm init -y
 npm install express cors
 ```
@@ -153,14 +153,14 @@ Go back to root:
 
 ```bash
 cd ..
-npx create-react-app client
+npx create-react-app frontend
 ```
 
 Or with Vite:
 
 ```bash
-npm create vite@latest client -- --template react
-cd client
+npm create vite@latest frontend -- --template react
+cd frontend
 npm install
 ```
 
